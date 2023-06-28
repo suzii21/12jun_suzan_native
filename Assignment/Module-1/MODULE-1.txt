@@ -1,23 +1,34 @@
-1]What is software? What is software engineering?
-->Software is a collection of instruction,data,information
-The process of devloping applications,designing,etc is known as software engineering.
+3]What is SDLC? Explain each phase of SDLC
+->Software Development Life Cycle is known as SDLC.It is is a process that defines the various stages involved in the development of software for delivering a high-quality product.
+There are six phases of SDLC:
 
-2]Explain types of software.
-->There are three types of software:
-  1)System software
-    OS-operating system
-    for ex-windows,android,ios,etc
+-PLANNING
+During planning all the relevant information is collected from the customer to develop an application as per their expectations after requirements are gathered part of planning is done.
 
-  2)Application software 
-   -Mobile application
-    for eg-instagram,twitter,snapchat,etc
-   - Web software 
-     for eg-chrome,safari,etc
-   -Desktop software 
-    for eg-notepad,xcode,etc
+-ANALYSIS
+Business analyst and Project Manager set up a meeting with the customer to gather all the information like what the customer wants to build,what is the purpose of the product,etc.Before building a product a understanding or knowledge of the product is very important.
 
-  3)Programming software 
-    compiler 
+-DESIGN
+After the gathered requirements is used as an input and software design is created.It involves overall data stucture and interfaces.Designing is done as per the requirement of customers.
+
+-IMPLEMENTATION
+After the design is done implementation of planning and designing is strted as per the requirement of customers.There are
+three types: 
+  1)front-end - development of coding.
+  2)Middleware: They connect both the front end and back end.
+  3)Back-end: A database is created.    
+
+-TESTING AND INTEGRATION
+The whole software is tested to make sure that the requirements of cutomer is implemented or not and also to check that the software should works completely. After testing the product is available for users.
+
+-MAINTENANCE
+maintenance of the product for eg: if any issue comes up and needs to be fixed like bugs,errors,etc is to be done by developers.
+They also have to update the software.
 
 
+4]What is DFD?Create a DFD diagram on flipkart.
+-DFD-data flow diagram 
+it is use to show the flow of system's data .there are two types:
+  1)0 level DFD
+  2)1 level DFD
 
