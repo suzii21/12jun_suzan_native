@@ -28,10 +28,6 @@ They also have to update the software.
 
 4]What is DFD?Create a DFD diagram on flipkart.
 -DFD-data flow diagram 
-
-
-
-
 it is use to show the flow of system's data .there are two types:
   1)0 level DFD
   2)1 level DFD
