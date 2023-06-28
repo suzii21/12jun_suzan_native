@@ -1,0 +1,9 @@
+5]What is flow chart?Create a flow chart to make addition of two numbers
+-It is used to show the flow of the process.
+  there are three types:
+  1)Linear
+  2)Branching
+  3)Looping
+
+6)What is use case diagram?Create a use case on bill payment on paytm.
+-Use case diagram describes the fubction of the system 
