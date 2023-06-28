@@ -20,17 +20,4 @@ The process of devloping applications,designing,etc is known as software enginee
     compiler 
 
 
-3]What is SDLC? Explain each phase of SDLC
-->Software Development Life Cycle is known as SDLC.It is is a process that defines the various stages involved in the development of software for delivering a high-quality product.
-There are six phases of SDLC:
 
--PLANNING
-During planning all the relevant information is collected from the customer to develop an application as per their expectations after requirements are gathered part of planning is done.
-
--ANALYSIS
-Business analyst and Project Manager set up a meeting with the customer to gather all the information like what the customer wants to build,what is the purpose of the product,etc.Before building a product a understanding or knowledge of the product is very important.
-
--DESIGN
-After the gathered requirements is used as an input and software design is created.It involves overall data stucture and interfaces.Designing is done as per the requirement of customers.
-
--
