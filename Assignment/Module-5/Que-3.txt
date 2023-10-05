@@ -1,0 +1,15 @@
+3-What is Difference between DBMS and RDBMS?
+
+-- DBMS:
+Stores data in the form of a file.
+Allows one user at a time.
+Manages the data in a computer.
+No support for distributed databases.
+Cannot handle large amounts of data.
+
+-- RDBMS:
+Stores data in the form of tables.
+Allows more than one user at a time.
+Maintains the relationships of tables in a database.
+Allows distributed databases.
+Able to handle high amounts of data.

@@ -1,0 +1,7 @@
+5-What do you understand By Data Redundancy?
+
+Data redundancy refers to the practice of keeping data in two or more 
+places within a database or data storage system. Data redundancy 
+ensures an organization can provide continued operations or services 
+in the event something happens to its data -- for example, in the 
+case of data corruption or data loss.

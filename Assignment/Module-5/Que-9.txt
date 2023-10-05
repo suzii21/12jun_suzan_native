@@ -1,0 +1,8 @@
+9-What is save Point? How to create a save Point write a Query?
+
+A savepoint is a special mark inside a transaction that allows all 
+commands that are executed after it was established to be rolled 
+back, restoring the transaction state to what it was at the time of 
+the savepoint.
+
+Syntax for Savepoint command: SAVEPOINT SAVEPOINT_NAME

@@ -1,0 +1,7 @@
+7-What is DML Compiler in SQL?
+
+DML Compiler DML expands to Data Manipulation Language in DBMS. 
+DML Compiler again as the name suggests compiles(or translates) the 
+DML statements such as select, update and delete statements into 
+low-level instructions which is nothing but the machine-readable
+object code to make it executable.

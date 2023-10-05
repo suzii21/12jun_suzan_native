@@ -1,0 +1,69 @@
+8-What is SQL Key Constraints writing an Example of SQL Key 
+Constraints
+
+--NOT NULL  -	values cannot be null
+
+CREATE TABLE school 
+(
+  school_id INT NOT NULL,
+  school_code VARCHAR(20) NOT NULL,
+  school_name VARCHAR(50)
+);
+
+
+--UNIQUE  -  values cannot match any older value.
+
+CREATE TABLE school 
+(
+  school_id INT NOT NULL UNIQUE,
+  school_code VARCHAR(20) UNIQUE,
+  school_name VARCHAR(50)
+);
+
+--PRIMARY KEY - used to uniquely identify a row
+
+CREATE TABLE school 
+(
+  school_id INT PRIMARY KEY,
+  school_code VARCHAR(20) NOT NULL,
+  school_name VARCHAR(50)
+);
+
+--FOREIGN KEY  - references a row in another table
+
+CREATE TABLE Orders 
+(
+  order_id INT PRIMARY KEY,
+  customer_id int REFERENCES Customers(id)
+);
+
+--CHECK - validates condition for new value
+
+CREATE TABLE Orders 
+(
+  order_id INT PRIMARY KEY,
+  amount int CHECK (amount >= 100)
+);
+
+--DEFAULT	 - set default value if not passed
+
+CREATE TABLE College 
+(
+  school_id INT PRIMARY KEY,
+  school_code VARCHAR(20),
+  school_country VARCHAR(20) DEFAULT 'US'
+);
+
+--CREATE INDEX  - used to speedup the read process
+
+-- create table
+CREATE TABLE school 
+(
+  school_id INT PRIMARY KEY,
+  school_code VARCHAR(20) NOT NULL,
+  school_name VARCHAR(50)
+);
+
+-- create index
+CREATE INDEX school_index
+ON school(school_code);
